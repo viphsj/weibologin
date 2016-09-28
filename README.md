@@ -39,3 +39,14 @@ weibo.onekeyLogin(function(err,loginInfo){
 });
 
 ```
+
+# debug 信息
+```
+windows:
+set DEBUG=weibologin
+node yourapp.js
+
+linux:
+export DEBUG=weibologin 
+node youapp.js
+```
