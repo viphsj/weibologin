@@ -16,6 +16,9 @@ weibo.onekeyLogin(function(err,loginInfo){
 	}else{
 		console.log('isLogin:',loginInfo.logined);
 		console.log('userinfo:',loginInfo.userinfo);
+    // next time ,you could parse this file and directly setAccount to weibologin, and it will check if cookie is still
+    // available
+    fs.writeFileSync('reuse_cookie.json',JSON.stringify(loginInfo,null,4))
 	}
 	//var request = weibo.getRequest();
 	// request.get|post(url_you_like,option,callback)

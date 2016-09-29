@@ -2,16 +2,15 @@
   "author": "yizhiren <786647787@qq.com> (https://github.com/yizhiren/)",
   "name": "weibologin",
   "description": "https://github.com/yizhiren/weibologin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/yizhiren/weibologin",
   "repository": {
     "type": "git",
     "url": "git://github.com/yizhiren/weibologin.git"
   },
   "dependencies": {
-    "tough-cookie": "~1.0.0",
     "step": "0.0.6",
-    "poorequest": "0.0.10",
+    "poorequest": "~0.0.11",
     "debug": "~2.2.0"
   },
   "devDependencies": {},
